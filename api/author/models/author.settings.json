@@ -19,7 +19,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "name": {
@@ -34,11 +34,11 @@
       "type": "component",
       "repeatable": true,
       "component": "page.social-links",
-      "required": true
+      "required": false
     },
     "descrption": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "sectionAboutUs": {
       "type": "component",
@@ -49,13 +49,13 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-review",
-      "required": true
+      "required": false
     },
     "sectionFaq": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-faq",
-      "required": true
+      "required": false
     }
   }
 }
